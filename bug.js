@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API in combination with other asynchronous operations.  The issue manifests as the camera preview failing to render or displaying a blank screen after certain actions. The problem seems linked to race conditions where asynchronous operations interfere with the camera's lifecycle.
